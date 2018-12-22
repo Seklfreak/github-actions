@@ -11,7 +11,7 @@ LABEL "com.github.actions.description"="Use kubectl."
 LABEL "com.github.actions.icon"="play"
 LABEL "com.github.actions.color"="white"
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     ca-certificates \
     tzdata \
     apt-transport-https \
