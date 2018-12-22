@@ -23,4 +23,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 && apt-get install -y kubectl \
 && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["kubectl"]
+ENTRYPOINT ["kubectl", "make"]
