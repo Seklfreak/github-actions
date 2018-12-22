@@ -13,7 +13,7 @@ LABEL "com.github.actions.icon"="message-circle"
 LABEL "com.github.actions.color"="blue"
 
 RUN mkdir /app
-ADD . /app/
+ADD . /app
 WORKDIR /app
 
 RUN go build -o discord.out .
