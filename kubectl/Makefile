@@ -1,7 +1,7 @@
 include ../docker.mk
 include ../help.mk
 
-IMAGE_NAME=github-action-go-shell
+IMAGE_NAME=github-action-kubectl
 
 .PHONY: clean
 clean: ## Clean up after the build process.
