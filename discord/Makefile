@@ -2,7 +2,7 @@ include ../docker.mk
 include ../help.mk
 include ../go.mk
 
-IMAGE_NAME=discord
+IMAGE_NAME=github-action-discord
 
 .PHONY: clean
 clean: ## Clean up after the build process.
