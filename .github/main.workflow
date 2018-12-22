@@ -4,13 +4,13 @@ workflow "Build and Publish" {
 }
 
 action "Lint" {
-  uses = "actions/action-builder/shell@master"
+  uses = "Seklfreak/github-actions/go-shell@master"
   runs = "make"
   args = "lint"
 }
 
 action "Test" {
-  uses = "actions/action-builder/shell@master"
+  uses = "Seklfreak/github-actions/go-shell@master"
   runs = "make"
   args = "test"
 }
