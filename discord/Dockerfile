@@ -7,9 +7,9 @@ LABEL repository="https://github.com/Seklfreak/github-actions"
 LABEL homepage="https://github.com/Seklfreak/github-actions"
 LABEL maintainer="Sebastian Winkler <sebastian.winkler@slmn.de>"
 
-LABEL "com.github.actions.name"="GitHub Action for Discord"
+LABEL "com.github.actions.name"="Discord GitHub Actions"
 LABEL "com.github.actions.description"="Send messages to Discord."
-LABEL "com.github.actions.icon"="message-circle"
+LABEL "com.github.actions.icon"="message"
 LABEL "com.github.actions.color"="blue"
 
 RUN mkdir /app

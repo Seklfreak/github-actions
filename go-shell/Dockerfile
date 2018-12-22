@@ -8,8 +8,8 @@ LABEL maintainer="Sebastian Winkler <sebastian.winkler@slmn.de>"
 
 LABEL "com.github.actions.name"="Go Shell for GitHub Actions"
 LABEL "com.github.actions.description"="Lint and Test Go content."
-LABEL "com.github.actions.icon"="filter"
-LABEL "com.github.actions.color"="gray-dark"
+LABEL "com.github.actions.icon"="play"
+LABEL "com.github.actions.color"="white"
 
 ENTRYPOINT ["/bin/make"]
 CMD ["lint", "test"]
