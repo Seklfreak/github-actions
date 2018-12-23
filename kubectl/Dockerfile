@@ -12,7 +12,7 @@ LABEL "com.github.actions.icon"="play"
 LABEL "com.github.actions.color"="white"
 
 RUN apt-get update && apt-get install -y \
-    make
+    make \
 && rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT ["/usr/bin/make"]
